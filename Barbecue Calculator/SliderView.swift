@@ -27,7 +27,6 @@ struct SliderView: View {
             Text(calculatePeoples(value: value))
                 .foregroundColor(.black)
         }
-        .font(.title)
         .tint(.black)
     }
 }

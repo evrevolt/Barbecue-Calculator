@@ -18,30 +18,30 @@ struct ContentView: View {
     
     var body: some View {
         
-        VStack {
-        
-            ImageView()
-
-            SliderView(
-                title: "Сколько вас?",
-                minimumValueLabel: "1",
-                maximumValueLabel: "20",
-                value: $peopleCount
-            )
-            
-            PickerView(selectedMeat: $selectedMeat)
-            
-            ImageSliderView(
-                title: "Насколько вы голодные?",
-                minValue: 3.0,
-                maxValue: 5.0,
-                stepValue: 1.0,
-                minimumValueLabel: Image(systemName: "pawprint"),
-                maximumValueLabel: Image(systemName: "pawprint.fill"),
-                value: $hunger
-            )
-            EmojiView()
-            
+            VStack {
+                
+                ImageView()
+                
+                SliderView(
+                    title: "Сколько вас?",
+                    minimumValueLabel: "1",
+                    maximumValueLabel: "20",
+                    value: $peopleCount
+                )
+                
+                PickerView(selectedMeat: $selectedMeat)
+                
+                ImageSliderView(
+                    title: "Насколько вы голодные?",
+                    minValue: 3.0,
+                    maxValue: 5.0,
+                    stepValue: 1.0,
+                    minimumValueLabel: Image(systemName: "pawprint"),
+                    maximumValueLabel: Image(systemName: "pawprint.fill"),
+                    value: $hunger
+                )
+                EmojiView()
+                
                 ImageSliderView(
                     title: "Как долго планируем \n балдеть?",
                     minValue: 0.0,
@@ -52,14 +52,13 @@ struct ContentView: View {
                     value: $timeCount
                 )
                 CalculateView(value: $timeCount)
-            
-            
-            Spacer()
-            
-            let result = peopleCount * (hunger / 10 + (timeCount / 10))
-            let stringresunt = String(format: "%.1f", result)
-            Text("\(stringresunt) кг шашлыка из \(selectedMeat.rawValue)")
-                    .font(.title)
+                
+                
+                Spacer()
+                
+                let result = peopleCount * (hunger / 10 + (timeCount / 10))
+                let stringresunt = String(format: "%.1f", result)
+                Text("\(stringresunt) кг шашлыка из \(selectedMeat.rawValue)")
                     .multilineTextAlignment(.center)
             
         }.background(
@@ -71,6 +70,7 @@ struct ContentView: View {
             .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
         )
         .padding()
+        .font(.system(size: 20))
     }
 }
             

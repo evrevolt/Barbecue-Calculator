@@ -35,7 +35,6 @@ struct PickerView: View {
             }
             .pickerStyle(.segmented)
         }
-        .font(.title)
     }
 }
 

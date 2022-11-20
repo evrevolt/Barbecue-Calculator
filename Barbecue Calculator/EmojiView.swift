@@ -12,16 +12,16 @@ struct EmojiView: View {
         HStack {
             Text("🐣")
                 .multilineTextAlignment(.leading)
-                .font(.system(size: 30))
+                .font(.system(size: 20))
             Spacer()
             
             Text("🐺")
                 .multilineTextAlignment(.center)
-                .font(.system(size: 40))
+                .font(.system(size: 30))
             Spacer()
             Text("👹")
                 .multilineTextAlignment(.trailing)
-                .font(.system(size: 50))
+                .font(.system(size: 40))
         }
     }
 }

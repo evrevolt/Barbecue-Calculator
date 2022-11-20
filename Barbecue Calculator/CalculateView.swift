@@ -27,7 +27,6 @@ struct CalculateView: View {
             Text(getString(value: value))
                 .lineLimit(2)
                 .multilineTextAlignment(.center)
-                .font(.title)
         }
     }
 }

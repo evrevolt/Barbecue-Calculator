@@ -32,7 +32,6 @@ struct ImageSliderView: View {
 //            Text("\(Int(value))")
 //                .foregroundColor(.black)
         }
-        .font(.title)
         .tint(.black)
     }
 }
