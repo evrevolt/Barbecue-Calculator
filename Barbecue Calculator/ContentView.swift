@@ -16,55 +16,61 @@ struct ContentView: View {
     @State var hunger = 3.0
     @State var timeCount = 0.0
     
+    @Environment(\.colorScheme) var colorScheme
+    
     var body: some View {
         
             VStack {
                 
-                ImageView()
-                Spacer()
-                
-                SliderView(
-                    title: "Сколько вас?",
-                    minimumValueLabel: "1",
-                    maximumValueLabel: "20",
-                    value: $peopleCount
-                )
-                
+            ImageView()
+            Spacer()
+            
+            SliderView(
+                title: "1. Сколько вас?",
+                minimumValueLabel: "1",
+                maximumValueLabel: "20",
+                value: $peopleCount
+            )
+            
+            ZStack {
                 PickerView(selectedMeat: $selectedMeat)
-                
-                ImageSliderView(
-                    title: "Насколько вы голодные?",
-                    minValue: 3.0,
-                    maxValue: 5.0,
-                    stepValue: 1.0,
-                    minimumValueLabel: Image(systemName: "pawprint"),
-                    maximumValueLabel: Image(systemName: "pawprint.fill"),
-                    value: $hunger
-                )
-                EmojiView()
-                
-                ImageSliderView(
-                    title: "Как долго планируем балдеть?",
-                    minValue: 0.0,
-                    maxValue: 2.0,
-                    stepValue: 1.0,
-                    minimumValueLabel: Image(systemName: "hare"),
-                    maximumValueLabel: Image(systemName: "tortoise.fill"),
-                    value: $timeCount
-                )
-                CalculateView(value: $timeCount)
-                
-                Spacer()
-                
-                let result = peopleCount * (hunger / 10 + (timeCount / 10))
-                let stringresunt = String(format: "%.1f", result)
-                
-                Text("\(stringresunt) кг шашлыка из \(selectedMeat.rawValue)")
-                    .font(.title)
+            }
+            
+            ImageSliderView(
+                title: "3. Насколько вы голодные?",
+                minValue: 3.0,
+                maxValue: 5.0,
+                stepValue: 1.0,
+                minimumValueLabel: Image(systemName: "pawprint"),
+                maximumValueLabel: Image(systemName: "pawprint.fill"),
+                value: $hunger
+            )
+            EmojiView()
+                .padding(.top, -20.0)
+            
+            
+            ImageSliderView(
+                title: "4. Как долго планируем балдеть?",
+                minValue: 0.0,
+                maxValue: 2.0,
+                stepValue: 1.0,
+                minimumValueLabel: Image(systemName: "hare"),
+                maximumValueLabel: Image(systemName: "tortoise.fill"),
+                value: $timeCount
+            )
+            CalculateView(value: $timeCount)
+            
+            Spacer()
+            
+            let result = peopleCount * (hunger / 10 + (timeCount / 10))
+            let stringresunt = String(format: "%.1f", result)
+            
+            Text("\(stringresunt) кг шашлыка из \(selectedMeat.rawValue)")
+                .font(.title)
             
         }.background(
             //Create Background image
-        Image("day")
+            Image(colorScheme == .light ? "day" : "night")
             .resizable()
             .scaledToFill()
             .edgesIgnoringSafeArea(.all)
@@ -72,7 +78,7 @@ struct ContentView: View {
         )
         .padding()
         .font(.system(size: 22))
-        .tint(.black)
+        .tint(colorScheme == .dark ? .black : .white)
     }
 }
             

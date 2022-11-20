@@ -30,7 +30,6 @@ struct ImageSliderView: View {
             } maximumValueLabel: {
                 Text(maximumValueLabel)
             }
-//            Text("\(Int(value))")
         }
     }
 }
