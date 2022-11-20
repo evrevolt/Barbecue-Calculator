@@ -15,6 +15,8 @@
 		54C8861A292A0E3E00505D3A /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C88619292A0E3E00505D3A /* PickerView.swift */; };
 		54C8861C292A166600505D3A /* ImageSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C8861B292A166600505D3A /* ImageSliderView.swift */; };
 		54C8861E292A230800505D3A /* EmojiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C8861D292A230800505D3A /* EmojiView.swift */; };
+		54C88620292A269200505D3A /* CalculateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C8861F292A269200505D3A /* CalculateView.swift */; };
+		54C88622292A2DD100505D3A /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C88621292A2DD100505D3A /* ImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		54C88619292A0E3E00505D3A /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
 		54C8861B292A166600505D3A /* ImageSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSliderView.swift; sourceTree = "<group>"; };
 		54C8861D292A230800505D3A /* EmojiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiView.swift; sourceTree = "<group>"; };
+		54C8861F292A269200505D3A /* CalculateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateView.swift; sourceTree = "<group>"; };
+		54C88621292A2DD100505D3A /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,10 +65,12 @@
 			children = (
 				5499D16E27E5A306000A74CD /* Barbecue_CalculatorApp.swift */,
 				5499D17027E5A306000A74CD /* ContentView.swift */,
+				54C8861F292A269200505D3A /* CalculateView.swift */,
 				54C8861D292A230800505D3A /* EmojiView.swift */,
 				54C88619292A0E3E00505D3A /* PickerView.swift */,
 				54C88617292A09F900505D3A /* SliderView.swift */,
 				54C8861B292A166600505D3A /* ImageSliderView.swift */,
+				54C88621292A2DD100505D3A /* ImageView.swift */,
 				5499D17227E5A309000A74CD /* Assets.xcassets */,
 				5499D17427E5A309000A74CD /* Preview Content */,
 			);
@@ -149,9 +155,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54C88622292A2DD100505D3A /* ImageView.swift in Sources */,
 				54C8861A292A0E3E00505D3A /* PickerView.swift in Sources */,
 				54C88618292A09F900505D3A /* SliderView.swift in Sources */,
 				5499D17127E5A306000A74CD /* ContentView.swift in Sources */,
+				54C88620292A269200505D3A /* CalculateView.swift in Sources */,
 				5499D16F27E5A306000A74CD /* Barbecue_CalculatorApp.swift in Sources */,
 				54C8861C292A166600505D3A /* ImageSliderView.swift in Sources */,
 				54C8861E292A230800505D3A /* EmojiView.swift in Sources */,

@@ -7,42 +7,21 @@
 
 import SwiftUI
 
-//enum Hunger: String, CaseIterable, Identifiable, Codable {
-//    var id: Self {
-//        self
-//    }
-//
-//    case min = "Немного голоден"
-//    case minMax = "Вполне доживу до конца"
-//    case max = "Съем первую партию, даже если она сгорит"
-//}
-//
-//enum TimeCount: String, CaseIterable, Identifiable {
-//    var id: Self {
-//        self
-//    }
-//
-//    case min = "Чучуть посидим"
-//    case minMax = "Обычный шашлык на пару часок"
-//    case max = "Будем сидеть пока мангал не развалиться"
-//}
 
-
-var countTime = 0.0
-var countMeat = 0.0
 
 struct ContentView: View {
     
     @State private var peopleCount = 7.0
     @State var selectedMeat: MeatName = .pig
-    @State var hunger = 0.4
-    @State var timeCount = 1.0
-    @State var meat = 0.0
+    @State var hunger = 3.0
+    @State var timeCount = 0.0
     
     var body: some View {
         
         VStack {
-            
+        
+            ImageView()
+
             SliderView(
                 title: "Сколько вас?",
                 minimumValueLabel: "1",
@@ -63,22 +42,25 @@ struct ContentView: View {
             )
             EmojiView()
             
-            ImageSliderView(
-                title: "Как долго планируем балдеть?",
-                minValue: 0.0,
-                maxValue: 2.0,
-                stepValue: 1.0,
-                minimumValueLabel: Image(systemName: "hare"),
-                maximumValueLabel: Image(systemName: "tortoise.fill"),
-                value: $timeCount
-            )
+                ImageSliderView(
+                    title: "Как долго планируем \n балдеть?",
+                    minValue: 0.0,
+                    maxValue: 2.0,
+                    stepValue: 1.0,
+                    minimumValueLabel: Image(systemName: "hare"),
+                    maximumValueLabel: Image(systemName: "tortoise.fill"),
+                    value: $timeCount
+                )
+                CalculateView(value: $timeCount)
             
-                //calculateTime(timeCount: timeCount)
-            let result = ((hunger / 10 + countTime))
-               //result = round(result * 10) / 10
-                
-                Text("Результат: \n \(result) КГ \n шашлыка из \(selectedMeat.rawValue)")
+            
+            Spacer()
+            
+            let result = peopleCount * (hunger / 10 + (timeCount / 10))
+            let stringresunt = String(format: "%.1f", result)
+            Text("\(stringresunt) кг шашлыка из \(selectedMeat.rawValue)")
                     .font(.title)
+                    .multilineTextAlignment(.center)
             
         }.background(
             //Create Background image

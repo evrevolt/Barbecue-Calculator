@@ -21,6 +21,8 @@ struct ImageSliderView: View {
     var body: some View {
         VStack {
             Text(title)
+                .lineLimit(2)
+                .multilineTextAlignment(.center)
             Slider(value: $value, in: minValue...maxValue, step: stepValue) {
             } minimumValueLabel: {
                 Text(minimumValueLabel)
@@ -38,7 +40,7 @@ struct ImageSliderView: View {
 struct ImageSliderView_Previews: PreviewProvider {
     static var previews: some View {
         ImageSliderView(
-            title: "How hunger?",
+            title: "Как долго планируем балдеть?",
             minValue: 0.0,
             maxValue: 1.0,
             stepValue: 0.1,
