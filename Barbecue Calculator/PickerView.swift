@@ -36,77 +36,73 @@ struct PickerView: View {
         
         VStack {
             Text("2. Какое мясо жарим?")
-//            Picker("2. Какое мясо жарим?", selection: $selectedMeat) {
-//                ForEach(MeatName.allCases) { meatName in
-//                    Text(meatName.rawValue.capitalized).tag(meatName.id)
-//                        .font(.system(size: 40))
-//                }
-//            }
-//            .pickerStyle(.menu)
-//            .labelsHidden()
-//            .frame(width: 70, height: 50)
-//            .font(.system(size: 100))
-            
         
             HStack {
                 
+                //pig
                 Button {
                     offBool()
                     pigBool.toggle()
+                    selectedMeat = .pig
                 } label: {
                     Image(pigBool ? "pig_selected" : "pig")
                         .resizable()
                         .frame(width: sizeButton, height: sizeButton)
                 }
-                .buttonStyle(.bordered)
                 .frame(width: sizeButton, height: sizeButton)
+                Spacer()
                 
+                //cow
                 Button {
                     offBool()
                     cowBool.toggle()
+                    selectedMeat = .cow
                 } label: {
                     Image(cowBool ? "beef_selected" : "beef")
                         .resizable()
                         .frame(width: sizeButton, height: sizeButton)
                 }
-                .buttonStyle(.bordered)
                 .frame(width: sizeButton, height: sizeButton)
+                Spacer()
                 
+                //sheep
                 Button {
                     offBool()
                     muttonBool.toggle()
+                    selectedMeat = .mutton
                 } label: {
                     Image(muttonBool ? "sheep_selected" : "sheep")
                         .resizable()
                         .frame(width: sizeButton, height: sizeButton)
                 }
-                .buttonStyle(.bordered)
                 .frame(width: sizeButton, height: sizeButton)
+                Spacer()
                 
+                //chicken
                 Button {
                     offBool()
                     chikenBool.toggle()
+                    selectedMeat = .chicken
                 } label: {
                     Image(chikenBool ? "chicken_selected" : "chicken")
                         .resizable()
                         .frame(width: sizeButton, height: sizeButton)
                 }
-                .buttonStyle(.bordered)
                 .frame(width: sizeButton, height: sizeButton)
+                Spacer()
                 
+                //vegan
                 Button {
                     offBool()
                     veganBool.toggle()
+                    selectedMeat = .vegan
                 } label: {
                     Image(veganBool ? "veg_selected" : "veg")
                         .resizable()
                         .frame(width: sizeButton, height: sizeButton)
                 }
-                .buttonStyle(.bordered)
                 .frame(width: sizeButton, height: sizeButton)
             }
-            
-            
         }
         
     }
@@ -117,7 +113,6 @@ struct PickerView: View {
         chikenBool = false
         veganBool = false
     }
-    
 }
 
 struct PickerView_Previews: PreviewProvider {

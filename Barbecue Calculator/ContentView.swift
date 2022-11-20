@@ -31,10 +31,9 @@ struct ContentView: View {
                 maximumValueLabel: "20",
                 value: $peopleCount
             )
-            
-            ZStack {
+            .padding(.top, -20.0)
+                
                 PickerView(selectedMeat: $selectedMeat)
-            }
             
             ImageSliderView(
                 title: "3. Насколько вы голодные?",
@@ -46,7 +45,7 @@ struct ContentView: View {
                 value: $hunger
             )
             EmojiView()
-                .padding(.top, -20.0)
+                .padding(.top, -10.0)
             
             
             ImageSliderView(
@@ -59,8 +58,8 @@ struct ContentView: View {
                 value: $timeCount
             )
             CalculateView(value: $timeCount)
-            
-            Spacer()
+                
+                Spacer()
             
             let result = peopleCount * (hunger / 10 + (timeCount / 10))
             let stringresunt = String(format: "%.1f", result)
