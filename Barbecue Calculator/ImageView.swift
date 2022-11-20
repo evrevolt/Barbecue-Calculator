@@ -13,7 +13,6 @@ struct ImageView: View {
             .resizable()
             .frame(width: UIScreen.main.bounds.width,
                    height: 100)
-        Spacer()
     }
 }
 

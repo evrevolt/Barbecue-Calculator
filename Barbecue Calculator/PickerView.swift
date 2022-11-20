@@ -28,6 +28,7 @@ struct PickerView: View {
         
         VStack {
             Text("Какое мясо жарим?")
+            
             Picker("How meat?", selection: $selectedMeat) {
                 ForEach(MeatName.allCases) { meatName in
                     Text(meatName.rawValue.capitalized).tag(meatName.id)

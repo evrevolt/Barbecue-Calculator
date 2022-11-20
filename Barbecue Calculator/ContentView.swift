@@ -21,6 +21,7 @@ struct ContentView: View {
             VStack {
                 
                 ImageView()
+                Spacer()
                 
                 SliderView(
                     title: "Сколько вас?",
@@ -43,7 +44,7 @@ struct ContentView: View {
                 EmojiView()
                 
                 ImageSliderView(
-                    title: "Как долго планируем \n балдеть?",
+                    title: "Как долго планируем балдеть?",
                     minValue: 0.0,
                     maxValue: 2.0,
                     stepValue: 1.0,
@@ -53,13 +54,13 @@ struct ContentView: View {
                 )
                 CalculateView(value: $timeCount)
                 
-                
                 Spacer()
                 
                 let result = peopleCount * (hunger / 10 + (timeCount / 10))
                 let stringresunt = String(format: "%.1f", result)
+                
                 Text("\(stringresunt) кг шашлыка из \(selectedMeat.rawValue)")
-                    .multilineTextAlignment(.center)
+                    .font(.title)
             
         }.background(
             //Create Background image
@@ -70,7 +71,8 @@ struct ContentView: View {
             .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
         )
         .padding()
-        .font(.system(size: 20))
+        .font(.system(size: 22))
+        .tint(.black)
     }
 }
             

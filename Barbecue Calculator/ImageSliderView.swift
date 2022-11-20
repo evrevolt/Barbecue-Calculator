@@ -21,8 +21,9 @@ struct ImageSliderView: View {
     var body: some View {
         VStack {
             Text(title)
-                .lineLimit(2)
+                .lineLimit(1)
                 .multilineTextAlignment(.center)
+            
             Slider(value: $value, in: minValue...maxValue, step: stepValue) {
             } minimumValueLabel: {
                 Text(minimumValueLabel)
@@ -30,9 +31,7 @@ struct ImageSliderView: View {
                 Text(maximumValueLabel)
             }
 //            Text("\(Int(value))")
-//                .foregroundColor(.black)
         }
-        .tint(.black)
     }
 }
 

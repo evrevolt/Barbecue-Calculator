@@ -17,17 +17,22 @@ struct SliderView: View {
     
     var body: some View {
         VStack {
-            Text(title)
-            Slider(value: $value, in: 1...20, step: 1) {
-            } minimumValueLabel: {
-                Text(minimumValueLabel)
-            } maximumValueLabel: {
-                Text(maximumValueLabel)
-            }
-            Text(calculatePeoples(value: value))
-                .foregroundColor(.black)
+            
+                Text(title)
+//                .lineLimit(1)
+//                .multilineTextAlignment(.center)
+//                .font(.system(size: 30))
+//                .minimumScaleFactor(0.7)
+            
+                Slider(value: $value, in: 1...20, step: 1) {
+                } minimumValueLabel: {
+                    Text(minimumValueLabel)
+                } maximumValueLabel: {
+                    Text(maximumValueLabel)
+                }
+            
+                Text(calculatePeoples(value: value))
         }
-        .tint(.black)
     }
 }
 
