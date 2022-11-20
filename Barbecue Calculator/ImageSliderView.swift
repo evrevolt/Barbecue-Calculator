@@ -27,10 +27,11 @@ struct ImageSliderView: View {
             } maximumValueLabel: {
                 Text(maximumValueLabel)
             }
-            Text("\(Int(value))")
-                .foregroundColor(.black)
+//            Text("\(Int(value))")
+//                .foregroundColor(.black)
         }
         .font(.title)
+        .tint(.black)
     }
 }
 

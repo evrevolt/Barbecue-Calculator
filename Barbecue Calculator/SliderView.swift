@@ -28,6 +28,7 @@ struct SliderView: View {
                 .foregroundColor(.black)
         }
         .font(.title)
+        .tint(.black)
     }
 }
 

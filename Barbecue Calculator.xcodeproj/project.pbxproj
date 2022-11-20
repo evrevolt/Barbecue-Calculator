@@ -14,6 +14,7 @@
 		54C88618292A09F900505D3A /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C88617292A09F900505D3A /* SliderView.swift */; };
 		54C8861A292A0E3E00505D3A /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C88619292A0E3E00505D3A /* PickerView.swift */; };
 		54C8861C292A166600505D3A /* ImageSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C8861B292A166600505D3A /* ImageSliderView.swift */; };
+		54C8861E292A230800505D3A /* EmojiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C8861D292A230800505D3A /* EmojiView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		54C88617292A09F900505D3A /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
 		54C88619292A0E3E00505D3A /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
 		54C8861B292A166600505D3A /* ImageSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSliderView.swift; sourceTree = "<group>"; };
+		54C8861D292A230800505D3A /* EmojiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 			children = (
 				5499D16E27E5A306000A74CD /* Barbecue_CalculatorApp.swift */,
 				5499D17027E5A306000A74CD /* ContentView.swift */,
+				54C8861D292A230800505D3A /* EmojiView.swift */,
 				54C88619292A0E3E00505D3A /* PickerView.swift */,
 				54C88617292A09F900505D3A /* SliderView.swift */,
 				54C8861B292A166600505D3A /* ImageSliderView.swift */,
@@ -151,6 +154,7 @@
 				5499D17127E5A306000A74CD /* ContentView.swift in Sources */,
 				5499D16F27E5A306000A74CD /* Barbecue_CalculatorApp.swift in Sources */,
 				54C8861C292A166600505D3A /* ImageSliderView.swift in Sources */,
+				54C8861E292A230800505D3A /* EmojiView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,7 +293,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -321,7 +325,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

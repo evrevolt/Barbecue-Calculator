@@ -52,19 +52,26 @@ struct ContentView: View {
             
             PickerView(selectedMeat: $selectedMeat)
             
-//            ImageSliderView(
-//                title: "How hunger?",
-//                minimumValueLabel: Image(systemName: "pawprint"),
-//                maximumValueLabel: Image(systemName: "pawprint.fill"),
-//                value: $hunger
-//            )
-//            
-//            ImageSliderView(
-//                title: "4. How long do we plan to stay?",
-//                minimumValueLabel: Image(systemName: "hare"),
-//                maximumValueLabel: Image(systemName: "tortoise.fill"),
-//                value: $timeCount
-//            )
+            ImageSliderView(
+                title: "Насколько вы голодные?",
+                minValue: 3.0,
+                maxValue: 5.0,
+                stepValue: 1.0,
+                minimumValueLabel: Image(systemName: "pawprint"),
+                maximumValueLabel: Image(systemName: "pawprint.fill"),
+                value: $hunger
+            )
+            EmojiView()
+            
+            ImageSliderView(
+                title: "Как долго планируем балдеть?",
+                minValue: 0.0,
+                maxValue: 2.0,
+                stepValue: 1.0,
+                minimumValueLabel: Image(systemName: "hare"),
+                maximumValueLabel: Image(systemName: "tortoise.fill"),
+                value: $timeCount
+            )
             
                 //calculateTime(timeCount: timeCount)
             let result = ((hunger / 10 + countTime))
@@ -72,12 +79,6 @@ struct ContentView: View {
                 
                 Text("Результат: \n \(result) КГ \n шашлыка из \(selectedMeat.rawValue)")
                     .font(.title)
-            
-                
-            
-            
-            
-            
             
         }.background(
             //Create Background image
