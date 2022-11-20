@@ -14,7 +14,7 @@ enum TimeCount: String, CaseIterable, Identifiable {
 
     case min = "Мы быстро - по полшашлычинки и домой"
     case middle = "Нормально посидим! \n И так редко собираемся!"
-    case max = "Пока мангал не развалится!"
+    case max = "Пока мангал не развалится будем сидеть!"
 }
 
 struct CalculateView: View {
