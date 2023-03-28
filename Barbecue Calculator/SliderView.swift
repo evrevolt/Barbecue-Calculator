@@ -19,10 +19,6 @@ struct SliderView: View {
         VStack {
             
                 Text(title)
-//                .lineLimit(1)
-//                .multilineTextAlignment(.center)
-//                .font(.system(size: 30))
-//                .minimumScaleFactor(0.7)
             
                 Slider(value: $value, in: 1...20, step: 1) {
                 } minimumValueLabel: {

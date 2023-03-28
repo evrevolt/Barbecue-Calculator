@@ -7,16 +7,19 @@
 
 import SwiftUI
 
-
-
 struct ContentView: View {
+    
+    @Environment(\.colorScheme) var colorScheme
     
     @State private var peopleCount = 7.0
     @State var selectedMeat: MeatName = .pig
     @State var hunger = 3.0
     @State var timeCount = 0.0
     
-    @Environment(\.colorScheme) var colorScheme
+    var result: String {
+        let res = peopleCount * (hunger / 10 + (timeCount / 10))
+        return String(format: "%.1f", res)
+    }
     
     var body: some View {
         
@@ -61,10 +64,7 @@ struct ContentView: View {
                 
                 Spacer()
             
-            let result = peopleCount * (hunger / 10 + (timeCount / 10))
-            let stringresunt = String(format: "%.1f", result)
-            
-            Text("\(stringresunt) кг шашлыка из \(selectedMeat.rawValue)")
+            Text("\(result) кг шашлыка из \(selectedMeat.rawValue)")
                 .font(.title)
             
         }.background(
