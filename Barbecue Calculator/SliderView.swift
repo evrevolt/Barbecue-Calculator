@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct SliderView: View {
-    
     var title: String
     var minimumValueLabel: String
     var maximumValueLabel: String
@@ -17,23 +16,20 @@ struct SliderView: View {
     
     var body: some View {
         VStack {
+            Text(title)
             
-                Text(title)
+            Slider(value: $value, in: 1 ... 20, step: 1) {} minimumValueLabel: {
+                Text(minimumValueLabel)
+            } maximumValueLabel: {
+                Text(maximumValueLabel)
+            }
             
-                Slider(value: $value, in: 1...20, step: 1) {
-                } minimumValueLabel: {
-                    Text(minimumValueLabel)
-                } maximumValueLabel: {
-                    Text(maximumValueLabel)
-                }
-            
-                Text(calculatePeoples(value: value))
+            Text(calculatePeoples(value: value))
         }
     }
 }
 
 func calculatePeoples(value: Double) -> String {
-    
     var stringPeople = ""
     
     if value == 2 || value == 3 || value == 4 {

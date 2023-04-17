@@ -8,24 +8,22 @@
 import SwiftUI
 
 struct ImageSliderView: View {
-    
     var title: String
     var minValue: Double
     var maxValue: Double
     var stepValue: Double
     var minimumValueLabel: Image
     var maximumValueLabel: Image
-    
+
     @Binding var value: Double
-    
+
     var body: some View {
         VStack {
             Text(title)
                 .lineLimit(1)
                 .multilineTextAlignment(.center)
-            
-            Slider(value: $value, in: minValue...maxValue, step: stepValue) {
-            } minimumValueLabel: {
+
+            Slider(value: $value, in: minValue ... maxValue, step: stepValue) {} minimumValueLabel: {
                 Text(minimumValueLabel)
             } maximumValueLabel: {
                 Text(maximumValueLabel)

@@ -20,11 +20,9 @@ enum MeatName: String, CaseIterable, Identifiable {
 }
 
 struct PickerView: View {
-    
     var sizeButton: CGFloat = 60.0
     
     @Binding var selectedMeat: MeatName
-    
     
     @State var pigBool = true
     @State var cowBool = false
@@ -33,13 +31,11 @@ struct PickerView: View {
     @State var veganBool = false
     
     var body: some View {
-        
         VStack {
             Text("2. Какое мясо жарим?")
         
             HStack {
-                
-                //pig
+                // pig
                 Button {
                     offBool()
                     pigBool.toggle()
@@ -52,7 +48,7 @@ struct PickerView: View {
                 .frame(width: sizeButton, height: sizeButton)
                 Spacer()
                 
-                //cow
+                // cow
                 Button {
                     offBool()
                     cowBool.toggle()
@@ -65,7 +61,7 @@ struct PickerView: View {
                 .frame(width: sizeButton, height: sizeButton)
                 Spacer()
                 
-                //sheep
+                // sheep
                 Button {
                     offBool()
                     muttonBool.toggle()
@@ -78,7 +74,7 @@ struct PickerView: View {
                 .frame(width: sizeButton, height: sizeButton)
                 Spacer()
                 
-                //chicken
+                // chicken
                 Button {
                     offBool()
                     chikenBool.toggle()
@@ -91,7 +87,7 @@ struct PickerView: View {
                 .frame(width: sizeButton, height: sizeButton)
                 Spacer()
                 
-                //vegan
+                // vegan
                 Button {
                     offBool()
                     veganBool.toggle()
@@ -104,9 +100,9 @@ struct PickerView: View {
                 .frame(width: sizeButton, height: sizeButton)
             }
         }
-        
     }
-    private func offBool () {
+
+    private func offBool() {
         pigBool = false
         cowBool = false
         muttonBool = false

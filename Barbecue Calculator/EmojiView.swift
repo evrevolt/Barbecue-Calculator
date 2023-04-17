@@ -14,7 +14,7 @@ struct EmojiView: View {
                 .multilineTextAlignment(.leading)
                 .font(.system(size: 20))
             Spacer()
-            
+
             Text("🐺")
                 .multilineTextAlignment(.center)
                 .font(.system(size: 30))

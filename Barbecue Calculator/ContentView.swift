@@ -8,23 +8,20 @@
 import SwiftUI
 
 struct ContentView: View {
-    
     @Environment(\.colorScheme) var colorScheme
     
     @State private var peopleCount = 7.0
-    @State var selectedMeat: MeatName = .pig
-    @State var hunger = 3.0
-    @State var timeCount = 0.0
+    @State private var selectedMeat: MeatName = .pig
+    @State private var hunger = 3.0
+    @State private var timeCount = 0.0
     
-    var result: String {
+    private var result: String {
         let res = peopleCount * (hunger / 10 + (timeCount / 10))
         return String(format: "%.1f", res)
     }
     
     var body: some View {
-        
-            VStack {
-                
+        VStack {
             ImageView()
             Spacer()
             
@@ -36,7 +33,7 @@ struct ContentView: View {
             )
             .padding(.top, -20.0)
                 
-                PickerView(selectedMeat: $selectedMeat)
+            PickerView(selectedMeat: $selectedMeat)
             
             ImageSliderView(
                 title: "3. Насколько вы голодные?",
@@ -50,7 +47,6 @@ struct ContentView: View {
             EmojiView()
                 .padding(.top, -10.0)
             
-            
             ImageSliderView(
                 title: "4. Как долго планируем балдеть?",
                 minValue: 0.0,
@@ -62,25 +58,24 @@ struct ContentView: View {
             )
             CalculateView(value: $timeCount)
                 
-                Spacer()
+            Spacer()
             
             Text("\(result) кг шашлыка из \(selectedMeat.rawValue)")
                 .font(.title)
             
         }.background(
-            //Create Background image
+            // Create Background image
             Image(colorScheme == .light ? "day" : "night")
-            .resizable()
-            .scaledToFill()
-            .edgesIgnoringSafeArea(.all)
-            .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
+                .resizable()
+                .scaledToFill()
+                .edgesIgnoringSafeArea(.all)
+                .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
         )
         .padding()
         .font(.system(size: 22))
         .tint(colorScheme == .dark ? .black : .white)
     }
 }
-            
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {

@@ -18,11 +18,9 @@ enum TimeCount: String, CaseIterable, Identifiable {
 }
 
 struct CalculateView: View {
-    
     @Binding var value: Double
-    
+
     var body: some View {
-        
         VStack {
             Text(getString(value: value))
                 .lineLimit(2)
@@ -32,9 +30,8 @@ struct CalculateView: View {
 }
 
 private func getString(value: Double) -> String {
-    
     var stringValue = ""
-    
+
     if value == 0.0 {
         stringValue = TimeCount.min.rawValue
     } else if value == 1.0 {
@@ -42,7 +39,7 @@ private func getString(value: Double) -> String {
     } else {
         stringValue = TimeCount.max.rawValue
     }
-    
+
     return stringValue
 }
 
