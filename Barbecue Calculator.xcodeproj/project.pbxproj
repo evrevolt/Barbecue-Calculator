@@ -124,11 +124,11 @@
 			};
 			buildConfigurationList = 5499D16627E5A306000A74CD /* Build configuration list for PBXProject "Barbecue Calculator" */;
 			compatibilityVersion = "Xcode 13.0";
-			developmentRegion = en;
+			developmentRegion = ru;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				ru,
 			);
 			mainGroup = 5499D16227E5A306000A74CD;
 			productRefGroup = 5499D16C27E5A306000A74CD /* Products */;
@@ -292,7 +292,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"Barbecue Calculator/Preview Content\"";
 				DEVELOPMENT_TEAM = 6H647W3VQP;
 				ENABLE_PREVIEWS = YES;
@@ -330,7 +330,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"Barbecue Calculator/Preview Content\"";
 				DEVELOPMENT_TEAM = 6H647W3VQP;
 				ENABLE_PREVIEWS = YES;
