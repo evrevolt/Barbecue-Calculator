@@ -20,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		549324822A00EE4700E51C26 /* Barbecue-Calculator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Barbecue-Calculator-Info.plist"; sourceTree = SOURCE_ROOT; };
 		5499D16B27E5A306000A74CD /* Barbecue Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Barbecue Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5499D16E27E5A306000A74CD /* Barbecue_CalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Barbecue_CalculatorApp.swift; sourceTree = "<group>"; };
 		5499D17027E5A306000A74CD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -72,6 +73,7 @@
 				54C8861D292A230800505D3A /* EmojiView.swift */,
 				54C88621292A2DD100505D3A /* ImageView.swift */,
 				5499D17227E5A309000A74CD /* Assets.xcassets */,
+				549324822A00EE4700E51C26 /* Barbecue-Calculator-Info.plist */,
 				5499D17427E5A309000A74CD /* Preview Content */,
 			);
 			path = "Barbecue Calculator";
@@ -292,15 +294,16 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Barbecue Calculator/Preview Content\"";
-				DEVELOPMENT_TEAM = G948D9S888;
+				DEVELOPMENT_TEAM = 6H647W3VQP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Barbecue-Calculator-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "BBQ Calculate";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
 				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
@@ -309,11 +312,14 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Gennady-Vedernikov.Barbecue-Calculator";
+				PRODUCT_BUNDLE_IDENTIFIER = tech.goodservice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -326,15 +332,16 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Barbecue Calculator/Preview Content\"";
-				DEVELOPMENT_TEAM = G948D9S888;
+				DEVELOPMENT_TEAM = 6H647W3VQP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Barbecue-Calculator-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "BBQ Calculate";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
 				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
@@ -343,11 +350,14 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Gennady-Vedernikov.Barbecue-Calculator";
+				PRODUCT_BUNDLE_IDENTIFIER = tech.goodservice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
