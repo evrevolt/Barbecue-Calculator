@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  Barbecue Calculator
+
+  Created by Геннадий Ведерников on 07.05.2023.
+  
+*/
+
+"text1" = "1. Сколько вас?"
+"text2" = ""
+"text3" = "3. Насколько вы голодные?"
+"text4" = "4. Как долго планируем балдеть?"
