@@ -7,15 +7,9 @@
 
 import SwiftUI
 
-enum TimeCount: String, CaseIterable, Identifiable {
-    var id: Self {
-        self
-    }
-
-    case min = "Мы быстро - по полшашлычинки и домой"
-    case middle = "Нормально посидим! \n И так редко собираемся!"
-    case max = "Пока мангал не развалится будем сидеть!"
-}
+let textMin: LocalizedStringKey = "textMin"
+let textMiddle: LocalizedStringKey = "textMiddle"
+let textMax: LocalizedStringKey = "textMax"
 
 struct CalculateView: View {
     @Binding var value: Double
@@ -29,15 +23,15 @@ struct CalculateView: View {
     }
 }
 
-private func getString(value: Double) -> String {
-    var stringValue = ""
+private func getString(value: Double) -> LocalizedStringKey {
+    var stringValue: LocalizedStringKey = ""
 
     if value == 0.0 {
-        stringValue = TimeCount.min.rawValue
+        stringValue = textMin
     } else if value == 1.0 {
-        stringValue = TimeCount.middle.rawValue
+        stringValue = textMiddle
     } else {
-        stringValue = TimeCount.max.rawValue
+        stringValue = textMax
     }
 
     return stringValue

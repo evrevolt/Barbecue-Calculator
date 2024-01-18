@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct CalculatorView: View {
     @Environment(\.colorScheme) var colorScheme
     
     @State private var peopleCount = 7.0
@@ -20,23 +20,27 @@ struct ContentView: View {
         return String(format: "%.1f", res)
     }
     
+    let text1: LocalizedStringKey = "text1"
+    let text3: LocalizedStringKey = "text3"
+    let text4: LocalizedStringKey = "text4"
+    
     var body: some View {
         VStack {
-            ImageView()
+            LogoImageView()
             Spacer()
             
             SliderView(
-                title: "1. Сколько вас?",
+                title: text1,
                 minimumValueLabel: "1",
                 maximumValueLabel: "20",
                 value: $peopleCount
             )
             .padding(.top, -20.0)
-                
+            
             PickerView(selectedMeat: $selectedMeat)
             
             ImageSliderView(
-                title: "3. Насколько вы голодные?",
+                title: text3,
                 minValue: 3.0,
                 maxValue: 5.0,
                 stepValue: 1.0,
@@ -48,7 +52,7 @@ struct ContentView: View {
                 .padding(.top, -10.0)
             
             ImageSliderView(
-                title: "4. Как долго планируем балдеть?",
+                title: text4,
                 minValue: 0.0,
                 maxValue: 2.0,
                 stepValue: 1.0,
@@ -57,10 +61,10 @@ struct ContentView: View {
                 value: $timeCount
             )
             CalculateView(value: $timeCount)
-                
+            
             Spacer()
             
-            Text("\(result) кг шашлыка из \(selectedMeat.rawValue)")
+            Text("\(result) kg kebab from \(selectedMeat.rawValue)")
                 .font(.title)
             
         }.background(
@@ -79,6 +83,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        CalculatorView()
     }
 }

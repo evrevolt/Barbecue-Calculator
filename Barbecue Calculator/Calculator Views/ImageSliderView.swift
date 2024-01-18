@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ImageSliderView: View {
-    var title: String
+    var title: LocalizedStringKey
     var minValue: Double
     var maxValue: Double
     var stepValue: Double

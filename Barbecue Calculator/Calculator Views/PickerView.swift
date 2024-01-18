@@ -30,9 +30,11 @@ struct PickerView: View {
     @State var chikenBool = false
     @State var veganBool = false
     
+    let text2: LocalizedStringKey = "text2"
+    
     var body: some View {
         VStack {
-            Text("2. Какое мясо жарим?")
+            Text(text2)
         
             HStack {
                 // pig

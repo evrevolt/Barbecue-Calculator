@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ImageView: View {
+struct LogoImageView: View {
     var body: some View {
         Image("barbecue")
             .resizable()
@@ -18,7 +18,7 @@ struct ImageView: View {
 
 struct ImageView_Previews: PreviewProvider {
     static var previews: some View {
-        ImageView()
+        LogoImageView()
             .background(Color.black)
     }
 }
