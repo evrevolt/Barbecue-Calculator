@@ -68,7 +68,14 @@
       }
     },
     "1" : {
-
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : ""
+          }
+        }
+      }
     },
     "1. How many are you?" : {
       "localizations" : {
@@ -110,6 +117,106 @@
         }
       }
     },
+    "Activated carbon" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Активированный уголь"
+          }
+        }
+      }
+    },
+    "Adhesive plasters" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Лейкопластыри"
+          }
+        }
+      }
+    },
+    "Antihistamines" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Антигистаминные препараты"
+          }
+        }
+      }
+    },
+    "Axe" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Топор"
+          }
+        }
+      }
+    },
+    "Badminton" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Бадминтон"
+          }
+        }
+      }
+    },
+    "Ball" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Мяч"
+          }
+        }
+      }
+    },
+    "Bandage" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Бинт"
+          }
+        }
+      }
+    },
+    "Beverages" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Напитки"
+          }
+        }
+      }
+    },
+    "Brazier" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Мангал"
+          }
+        }
+      }
+    },
+    "Bread, lavash" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Хлеб, лаваш"
+          }
+        }
+      }
+    },
     "Calculator" : {
       "localizations" : {
         "ru" : {
@@ -121,7 +228,254 @@
       }
     },
     "Check list" : {
-
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Список"
+          }
+        }
+      }
+    },
+    "Cheese" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сыр"
+          }
+        }
+      }
+    },
+    "Chess" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Шахматы"
+          }
+        }
+      }
+    },
+    "Coal starter" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Угольный стартер"
+          }
+        }
+      }
+    },
+    "Crosswords, magazines" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Кроссворды, журналы"
+          }
+        }
+      }
+    },
+    "Cutting board" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Разделочная доска"
+          }
+        }
+      }
+    },
+    "Disposable tableware" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Одноразовая посуда"
+          }
+        }
+      }
+    },
+    "Domestic water" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Domestic water"
+          }
+        }
+      }
+    },
+    "First aid kit" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Аптечка первой помощи"
+          }
+        }
+      }
+    },
+    "Fishing rod and fishing tackle" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Удочка и рыболовные снасти"
+          }
+        }
+      }
+    },
+    "Folding chairs" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Складные стулья"
+          }
+        }
+      }
+    },
+    "Folding table" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Складной стол"
+          }
+        }
+      }
+    },
+    "Frisbee" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Фрисби"
+          }
+        }
+      }
+    },
+    "Fruits" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Фрукты"
+          }
+        }
+      }
+    },
+    "Furniture" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Мебель"
+          }
+        }
+      }
+    },
+    "Garbage bags" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Мешки для мусора"
+          }
+        }
+      }
+    },
+    "Greenery" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Зелень"
+          }
+        }
+      }
+    },
+    "Guitar" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Гитара"
+          }
+        }
+      }
+    },
+    "Hydrogen peroxide" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Перекись водорода"
+          }
+        }
+      }
+    },
+    "Ignition fluid" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Жидкость для розжига"
+          }
+        }
+      }
+    },
+    "Insect bite repellent" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Средство от укусов насекомых"
+          }
+        }
+      }
+    },
+    "Items" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Предметы"
+          }
+        }
+      }
+    },
+    "Juice, compote" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сок, компот"
+          }
+        }
+      }
+    },
+    "Jump rope" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Скакалка"
+          }
+        }
+      }
+    },
+    "Knife" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нож"
+          }
+        }
+      }
     },
     "Let's have a good time! \n We rarely get together!" : {
       "localizations" : {
@@ -129,6 +483,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Нормально посидим! И так редко собираемся!"
+          }
+        }
+      }
+    },
+    "Matches, lighter" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Спички, зажигалки"
           }
         }
       }
@@ -143,12 +507,182 @@
         }
       }
     },
+    "Mayonnaise, mustard, ketchup, sauce" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Майонез, горчица, кетчуп, соус"
+          }
+        }
+      }
+    },
+    "Meat/vegetables for barbecue" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Мясо/овощи для шашлыка"
+          }
+        }
+      }
+    },
+    "Outdoor games" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Игры на открытом воздухе"
+          }
+        }
+      }
+    },
+    "Painkiller" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Обезболивающее"
+          }
+        }
+      }
+    },
+    "Paper napkins" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Бумажные салфетки"
+          }
+        }
+      }
+    },
+    "Personal medications" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Личные медикаменты"
+          }
+        }
+      }
+    },
+    "Plaid, bedspread" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Плед, покрывало"
+          }
+        }
+      }
+    },
+    "Playing cards" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Игральные карты"
+          }
+        }
+      }
+    },
+    "Products" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Продукты"
+          }
+        }
+      }
+    },
     "Settings" : {
       "localizations" : {
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Настройки"
+          }
+        }
+      }
+    },
+    "Skewers, grill" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Шампура, решетка"
+          }
+        }
+      }
+    },
+    "Smoked meats, sausages" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Копчёности, сосиски"
+          }
+        }
+      }
+    },
+    "Still water" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Негазированная вода"
+          }
+        }
+      }
+    },
+    "Sunscreen" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Солнцезащитный крем"
+          }
+        }
+      }
+    },
+    "Tablecloth, oilcloth" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Скатерть, клеенка"
+          }
+        }
+      }
+    },
+    "Toilet paper" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Туалетная бумага"
+          }
+        }
+      }
+    },
+    "Towels" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Полотенца"
+          }
+        }
+      }
+    },
+    "Twister" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Твистер"
           }
         }
       }
@@ -173,170 +707,25 @@
         }
       }
     },
-    "Активированный уголь" : {
-
+    "Wet hand wipes" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Влажные салфетки для рук"
+          }
+        }
+      }
     },
-    "Антигистаминные препараты" : {
-
-    },
-    "Аптечка" : {
-
-    },
-    "Бадминтон" : {
-
-    },
-    "Бинт" : {
-
-    },
-    "Болеутоляющее" : {
-
-    },
-    "Бумага для розжига" : {
-
-    },
-    "Бумажные салфетки " : {
-
-    },
-    "Бытовые мелочи" : {
-
-    },
-    "Влажные салфетки" : {
-
-    },
-    "Вода для бытовых нужд" : {
-
-    },
-    "Вода питьевая негазированная" : {
-
-    },
-    "Гитара" : {
-
-    },
-    "Жидкость для розжига" : {
-
-    },
-    "Зеленка или йод" : {
-
-    },
-    "Зелень" : {
-
-    },
-    "Игральные карты" : {
-
-    },
-    "Игры на природе" : {
-
-    },
-    "Копчености, сосиски" : {
-
-    },
-    "Кроссворды, журналы" : {
-
-    },
-    "Лейкопластыри" : {
-
-    },
-    "Личные медикаменты" : {
-
-    },
-    "Майонез, горчицу, кетчуп, соус" : {
-
-    },
-    "Мангал" : {
-
-    },
-    "Мебель" : {
-
-    },
-    "Мешки для мусора" : {
-
-    },
-    "Мясо/овощи для шашлыка" : {
-
-    },
-    "Мяч" : {
-
-    },
-    "Напитки" : {
-
-    },
-    "Нож" : {
-
-    },
-    "Одноразовая посуда" : {
-
-    },
-    "Перекись водорода" : {
-
-    },
-    "Плед, покрывало" : {
-
-    },
-    "Полотенца" : {
-
-    },
-    "Продукты" : {
-
-    },
-    "Разделочная доска" : {
-
-    },
-    "Скакалка" : {
-
-    },
-    "Скатерть, клеенка" : {
-
-    },
-    "Складной стол" : {
-
-    },
-    "Складные стулья" : {
-
-    },
-    "Соки, компоты" : {
-
-    },
-    "Солнцезащитный крем" : {
-
-    },
-    "Спички, зажигалка" : {
-
-    },
-    "Средство от укусов насекомых" : {
-
-    },
-    "Стартер угля" : {
-
-    },
-    "Сыр" : {
-
-    },
-    "Твистер" : {
-
-    },
-    "Топор" : {
-
-    },
-    "Туалетная бумага" : {
-
-    },
-    "Удочка и рыболовные снасти" : {
-
-    },
-    "Фрисби" : {
-
-    },
-    "Фрукты" : {
-
-    },
-    "Хлеб, лаваш" : {
-
-    },
-    "Шампура, решётка" : {
-
-    },
-    "Шахматы" : {
-
+    "Zelenka or iodine" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Зеленка или йод"
+          }
+        }
+      }
     }
   },
   "version" : "1.0"

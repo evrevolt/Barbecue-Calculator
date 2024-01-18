@@ -17,76 +17,75 @@ struct ChecklistView: View {
 			Spacer()
 			
 			List {
-				Section("Продукты") {
-					Text("Мясо/овощи для шашлыка")
-					Text("Зелень")
-					Text("Фрукты")
-					Text("Копчености, сосиски")
-					Text("Хлеб, лаваш")
-					Text("Сыр")
-					Text("Майонез, горчицу, кетчуп, соус")
+				Section("Products") {
+					Text("Meat/vegetables for barbecue")
+					Text("Greenery")
+					Text("Fruits")
+					Text("Smoked meats, sausages")
+					Text("Bread, lavash")
+					Text("Cheese")
+					Text("Mayonnaise, mustard, ketchup, sauce")
 				}
 				.listRowBackground(Color.clear)
 				
-				Section("Напитки") {
-					Text("Соки, компоты")
-					Text("Вода питьевая негазированная")
+				Section("Beverages") {
+					Text("Juice, compote")
+					Text("Still water")
 				}
 				.listRowBackground(Color.clear)
 				
-				Section("Бытовые мелочи") {
-					Text("Мангал")
-					Text("Шампура, решётка")
-					Text("Жидкость для розжига")
-					Text("Бумага для розжига")
-					Text("Стартер угля")
-					Text("Спички, зажигалка")
-					Text("Одноразовая посуда")
-					Text("Скатерть, клеенка")
-					Text("Плед, покрывало")
-					Text("Бумажные салфетки ")
-					Text("Влажные салфетки")
-					Text("Полотенца")
-					Text("Мешки для мусора")
-					Text("Нож")
-					Text("Топор")
-					Text("Разделочная доска")
-					Text("Вода для бытовых нужд")
-					Text("Туалетная бумага")
+				Section("Items") {
+					Text("Brazier")
+					Text("Skewers, grill")
+					Text("Ignition fluid")
+					Text("Coal starter")
+					Text("Matches, lighter")
+					Text("Disposable tableware")
+					Text("Tablecloth, oilcloth")
+					Text("Plaid, bedspread")
+					Text("Paper napkins")
+					Text("Wet hand wipes")
+					Text("Towels")
+					Text("Garbage bags")
+					Text("Knife")
+					Text("Axe")
+					Text("Cutting board")
+					Text("Domestic water")
+					Text("Toilet paper")
 				}
 				.listRowBackground(Color.clear)
 				
-				Section("Игры на природе") {
-					Text("Мяч")
-					Text("Бадминтон")
-					Text("Скакалка")
-					Text("Шахматы")
-					Text("Твистер")
-					Text("Фрисби")
-					Text("Игральные карты")
-					Text("Удочка и рыболовные снасти")
-					Text("Кроссворды, журналы")
-					Text("Гитара")
+				Section("Outdoor games") {
+					Text("Ball")
+					Text("Badminton")
+					Text("Jump rope")
+					Text("Chess")
+					Text("Twister")
+					Text("Frisbee")
+					Text("Playing cards")
+					Text("Fishing rod and fishing tackle")
+					Text("Crosswords, magazines")
+					Text("Guitar")
 				}
 				.listRowBackground(Color.clear)
 				
-				Section("Мебель") {
-					Text("Складной стол")
-					Text("Складные стулья")
+				Section("Furniture") {
+					Text("Folding table")
+					Text("Folding chairs")
 				}
 				.listRowBackground(Color.clear)
 				
-				Section("Аптечка") {
-					Text("Лейкопластыри")
-					Text("Зеленка или йод")
-					Text("Перекись водорода")
-					Text("Бинт")
-					Text("Активированный уголь")
-					Text("Болеутоляющее")
-					Text("Антигистаминные препараты")
-					Text("Солнцезащитный крем")
-					Text("Средство от укусов насекомых")
-					Text("Личные медикаменты")
+				Section("First aid kit") {
+					Text("Adhesive plasters")
+					Text("Zelenka or iodine")
+					Text("Hydrogen peroxide")
+					Text("Bandage")
+					Text("Activated carbon")
+					Text("Painkiller")
+					Text("Antihistamines")
+					Text("Sunscreen")
+					Text("Insect bite repellent")
+					Text("Personal medications")
 				}
 				.listRowBackground(Color.clear)
 			}
