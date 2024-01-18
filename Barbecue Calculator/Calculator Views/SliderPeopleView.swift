@@ -9,8 +9,7 @@ import SwiftUI
 
 struct SliderPeopleView: View {
     var title: LocalizedStringKey
-    var minimumValueLabel: String
-    var maximumValueLabel: String
+	@AppStorage("maxPeople") var maxPeople = 20
     
     @Binding var value: Double
     
@@ -18,11 +17,11 @@ struct SliderPeopleView: View {
         VStack {
             Text(title)
             
-            Slider(value: $value, in: 1 ... 20, step: 1) {
+			Slider(value: $value, in: 1 ... Double(maxPeople), step: 1) {
 			} minimumValueLabel: {
-                Text(minimumValueLabel)
+                Text("1")
             } maximumValueLabel: {
-                Text(maximumValueLabel)
+				Text(maxPeople.description)
             }
             
             Text("\(value.formatted()) 🙎")
@@ -34,8 +33,6 @@ struct SliderView_Previews: PreviewProvider {
     static var previews: some View {
         SliderPeopleView(
             title: "1. How many are you?",
-            minimumValueLabel: "1",
-            maximumValueLabel: "20",
             value: .constant(10.0)
         )
     }

@@ -7,10 +7,6 @@
 
 import SwiftUI
 
-let textMin: LocalizedStringKey = "textMin"
-let textMiddle: LocalizedStringKey = "textMiddle"
-let textMax: LocalizedStringKey = "textMax"
-
 struct CalculateView: View {
     @Binding var value: Double
 
@@ -27,11 +23,11 @@ private func getString(value: Double) -> LocalizedStringKey {
     var stringValue: LocalizedStringKey = ""
 
     if value == 0.0 {
-        stringValue = textMin
+        stringValue = "We'll quickly - half a kebab and home"
     } else if value == 1.0 {
-        stringValue = textMiddle
+        stringValue = "Let's have a good time! \n We rarely get together!"
     } else {
-        stringValue = textMax
+        stringValue = "We'll sit until the brazier falls apart!"
     }
 
     return stringValue

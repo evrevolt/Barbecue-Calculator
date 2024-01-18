@@ -8,9 +8,24 @@
 import SwiftUI
 
 struct MainView: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
+	var body: some View {
+		TabView {
+			CalculatorView()
+				.tabItem {
+					Label("Calculator", systemImage: "slider.horizontal.3")
+				}
+			
+			ChecklistView()
+				.tabItem {
+					Label("Check list", systemImage: "checklist")
+				}
+			
+			SettingsView()
+				.tabItem {
+					Label("Settings", systemImage: "gear")
+				}
+		}
+	}
 }
 
 #Preview {

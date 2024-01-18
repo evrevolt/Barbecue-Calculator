@@ -10,7 +10,7 @@ import SwiftUI
 struct SettingsView: View {
 	
 	@Environment(\.colorScheme) var colorScheme
-	@State private var maxPeople = 20
+	@AppStorage("maxPeople") var maxPeople = 20
 	
 	var body: some View {
 		VStack {

@@ -7,34 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		542E93F82B58FAF400D3AB56 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542E93F72B58FAF400D3AB56 /* MainView.swift */; };
+		542E93FA2B58FE9C00D3AB56 /* ChecklistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542E93F92B58FE9B00D3AB56 /* ChecklistView.swift */; };
+		542E93FC2B58FEA300D3AB56 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542E93FB2B58FEA300D3AB56 /* SettingsView.swift */; };
+		542E93FF2B59043500D3AB56 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 542E93FE2B59043500D3AB56 /* Localizable.xcstrings */; };
 		5499D16F27E5A306000A74CD /* Barbecue_CalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5499D16E27E5A306000A74CD /* Barbecue_CalculatorApp.swift */; };
-		5499D17127E5A306000A74CD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5499D17027E5A306000A74CD /* ContentView.swift */; };
+		5499D17127E5A306000A74CD /* CalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5499D17027E5A306000A74CD /* CalculatorView.swift */; };
 		5499D17327E5A309000A74CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5499D17227E5A309000A74CD /* Assets.xcassets */; };
 		5499D17627E5A309000A74CD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5499D17527E5A309000A74CD /* Preview Assets.xcassets */; };
-		54C88618292A09F900505D3A /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C88617292A09F900505D3A /* SliderView.swift */; };
+		54C88618292A09F900505D3A /* SliderPeopleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C88617292A09F900505D3A /* SliderPeopleView.swift */; };
 		54C8861A292A0E3E00505D3A /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C88619292A0E3E00505D3A /* PickerView.swift */; };
 		54C8861C292A166600505D3A /* ImageSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C8861B292A166600505D3A /* ImageSliderView.swift */; };
 		54C8861E292A230800505D3A /* EmojiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C8861D292A230800505D3A /* EmojiView.swift */; };
 		54C88620292A269200505D3A /* CalculateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C8861F292A269200505D3A /* CalculateView.swift */; };
-		54C88622292A2DD100505D3A /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C88621292A2DD100505D3A /* ImageView.swift */; };
-		54CD140D2A0808CF0046120D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 54CD140F2A0808CF0046120D /* Localizable.strings */; };
+		54C88622292A2DD100505D3A /* LogoImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C88621292A2DD100505D3A /* LogoImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		542E93F72B58FAF400D3AB56 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		542E93F92B58FE9B00D3AB56 /* ChecklistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistView.swift; sourceTree = "<group>"; };
+		542E93FB2B58FEA300D3AB56 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		542E93FE2B59043500D3AB56 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		549324822A00EE4700E51C26 /* Barbecue-Calculator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Barbecue-Calculator-Info.plist"; sourceTree = SOURCE_ROOT; };
 		5499D16B27E5A306000A74CD /* Barbecue Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Barbecue Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5499D16E27E5A306000A74CD /* Barbecue_CalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Barbecue_CalculatorApp.swift; sourceTree = "<group>"; };
-		5499D17027E5A306000A74CD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5499D17027E5A306000A74CD /* CalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorView.swift; sourceTree = "<group>"; };
 		5499D17227E5A309000A74CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5499D17527E5A309000A74CD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		54C88617292A09F900505D3A /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
+		54C88617292A09F900505D3A /* SliderPeopleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderPeopleView.swift; sourceTree = "<group>"; };
 		54C88619292A0E3E00505D3A /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
 		54C8861B292A166600505D3A /* ImageSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSliderView.swift; sourceTree = "<group>"; };
 		54C8861D292A230800505D3A /* EmojiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiView.swift; sourceTree = "<group>"; };
 		54C8861F292A269200505D3A /* CalculateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateView.swift; sourceTree = "<group>"; };
-		54C88621292A2DD100505D3A /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
-		54CD140E2A0808CF0046120D /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
-		54CD14102A0808FF0046120D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		54C88621292A2DD100505D3A /* LogoImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +53,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		542E93FD2B58FF0000D3AB56 /* Calculator Views */ = {
+			isa = PBXGroup;
+			children = (
+				5499D17027E5A306000A74CD /* CalculatorView.swift */,
+				54C88621292A2DD100505D3A /* LogoImageView.swift */,
+				54C88617292A09F900505D3A /* SliderPeopleView.swift */,
+				54C88619292A0E3E00505D3A /* PickerView.swift */,
+				54C8861B292A166600505D3A /* ImageSliderView.swift */,
+				54C8861F292A269200505D3A /* CalculateView.swift */,
+				54C8861D292A230800505D3A /* EmojiView.swift */,
+			);
+			path = "Calculator Views";
+			sourceTree = "<group>";
+		};
+		542E94002B5907F700D3AB56 /* Checklist Views */ = {
+			isa = PBXGroup;
+			children = (
+				542E93F92B58FE9B00D3AB56 /* ChecklistView.swift */,
+			);
+			path = "Checklist Views";
+			sourceTree = "<group>";
+		};
+		542E94012B59080200D3AB56 /* Settings Views */ = {
+			isa = PBXGroup;
+			children = (
+				542E93FB2B58FEA300D3AB56 /* SettingsView.swift */,
+			);
+			path = "Settings Views";
+			sourceTree = "<group>";
+		};
 		5499D16227E5A306000A74CD = {
 			isa = PBXGroup;
 			children = (
@@ -68,15 +103,12 @@
 			isa = PBXGroup;
 			children = (
 				5499D16E27E5A306000A74CD /* Barbecue_CalculatorApp.swift */,
-				5499D17027E5A306000A74CD /* ContentView.swift */,
-				54C88617292A09F900505D3A /* SliderView.swift */,
-				54C88619292A0E3E00505D3A /* PickerView.swift */,
-				54C8861B292A166600505D3A /* ImageSliderView.swift */,
-				54C8861F292A269200505D3A /* CalculateView.swift */,
-				54C8861D292A230800505D3A /* EmojiView.swift */,
-				54C88621292A2DD100505D3A /* ImageView.swift */,
+				542E93F72B58FAF400D3AB56 /* MainView.swift */,
+				542E93FD2B58FF0000D3AB56 /* Calculator Views */,
+				542E94002B5907F700D3AB56 /* Checklist Views */,
+				542E94012B59080200D3AB56 /* Settings Views */,
+				542E93FE2B59043500D3AB56 /* Localizable.xcstrings */,
 				5499D17227E5A309000A74CD /* Assets.xcassets */,
-				54CD140F2A0808CF0046120D /* Localizable.strings */,
 				549324822A00EE4700E51C26 /* Barbecue-Calculator-Info.plist */,
 				5499D17427E5A309000A74CD /* Preview Content */,
 			);
@@ -151,7 +183,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5499D17627E5A309000A74CD /* Preview Assets.xcassets in Resources */,
-				54CD140D2A0808CF0046120D /* Localizable.strings in Resources */,
+				542E93FF2B59043500D3AB56 /* Localizable.xcstrings in Resources */,
 				5499D17327E5A309000A74CD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -163,30 +195,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54C88622292A2DD100505D3A /* ImageView.swift in Sources */,
+				54C88622292A2DD100505D3A /* LogoImageView.swift in Sources */,
+				542E93FA2B58FE9C00D3AB56 /* ChecklistView.swift in Sources */,
+				542E93F82B58FAF400D3AB56 /* MainView.swift in Sources */,
 				54C8861A292A0E3E00505D3A /* PickerView.swift in Sources */,
-				54C88618292A09F900505D3A /* SliderView.swift in Sources */,
-				5499D17127E5A306000A74CD /* ContentView.swift in Sources */,
+				54C88618292A09F900505D3A /* SliderPeopleView.swift in Sources */,
+				5499D17127E5A306000A74CD /* CalculatorView.swift in Sources */,
 				54C88620292A269200505D3A /* CalculateView.swift in Sources */,
 				5499D16F27E5A306000A74CD /* Barbecue_CalculatorApp.swift in Sources */,
 				54C8861C292A166600505D3A /* ImageSliderView.swift in Sources */,
 				54C8861E292A230800505D3A /* EmojiView.swift in Sources */,
+				542E93FC2B58FEA300D3AB56 /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		54CD140F2A0808CF0046120D /* Localizable.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				54CD140E2A0808CF0046120D /* ru */,
-				54CD14102A0808FF0046120D /* en */,
-			);
-			name = Localizable.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		5499D17727E5A309000A74CD /* Debug */ = {
@@ -241,7 +264,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -297,7 +320,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -314,9 +337,9 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 7;
+				CURRENT_PROJECT_VERSION = 9;
 				DEVELOPMENT_ASSET_PATHS = "\"Barbecue Calculator/Preview Content\"";
-				DEVELOPMENT_TEAM = 6H647W3VQP;
+				DEVELOPMENT_TEAM = G948D9S888;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Barbecue-Calculator-Info.plist";
@@ -328,17 +351,18 @@
 				INFOPLIST_KEY_UIStatusBarHidden = NO;
 				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.2.0;
-				PRODUCT_BUNDLE_IDENTIFIER = tech.goodservice.bc;
+				MARKETING_VERSION = 1.3.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tech.goodservice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -352,9 +376,9 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 7;
+				CURRENT_PROJECT_VERSION = 9;
 				DEVELOPMENT_ASSET_PATHS = "\"Barbecue Calculator/Preview Content\"";
-				DEVELOPMENT_TEAM = 6H647W3VQP;
+				DEVELOPMENT_TEAM = G948D9S888;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Barbecue-Calculator-Info.plist";
@@ -366,17 +390,18 @@
 				INFOPLIST_KEY_UIStatusBarHidden = NO;
 				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.2.0;
-				PRODUCT_BUNDLE_IDENTIFIER = tech.goodservice.bc;
+				MARKETING_VERSION = 1.3.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tech.goodservice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;

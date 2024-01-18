@@ -9,9 +9,9 @@ import SwiftUI
 
 @main
 struct Barbecue_CalculatorApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
-    }
+	var body: some Scene {
+		WindowGroup {
+			MainView()
+		}
+	}
 }

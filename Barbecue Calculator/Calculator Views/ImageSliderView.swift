@@ -23,7 +23,8 @@ struct ImageSliderView: View {
                 .lineLimit(1)
                 .multilineTextAlignment(.center)
 
-            Slider(value: $value, in: minValue ... maxValue, step: stepValue) {} minimumValueLabel: {
+            Slider(value: $value, in: minValue ... maxValue, step: stepValue) {
+			} minimumValueLabel: {
                 Text(minimumValueLabel)
             } maximumValueLabel: {
                 Text(maximumValueLabel)
@@ -35,7 +36,7 @@ struct ImageSliderView: View {
 struct ImageSliderView_Previews: PreviewProvider {
     static var previews: some View {
         ImageSliderView(
-            title: "Как долго планируем балдеть?",
+            title: "4. How long do we plan to be crazy?",
             minValue: 0.0,
             maxValue: 1.0,
             stepValue: 0.1,
