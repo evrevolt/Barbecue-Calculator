@@ -1,15 +1,19 @@
 //
-//  ChecklistView.swift
+//  ChecklistView2.swift
 //  Barbecue Calculator
 //
-//  Created by Геннадий Ведерников on 18.01.2024.
+//  Created by Геннадий Ведерников on 22.01.2024.
 //
 
 import SwiftUI
+import SwiftData
 
 struct ChecklistView: View {
 	
 	@Environment(\.colorScheme) var colorScheme
+	@Environment(\.modelContext) var modelContext
+	
+	@Query var categorys: [Category]
 	
     var body: some View {
 		VStack {
@@ -17,79 +21,28 @@ struct ChecklistView: View {
 			Spacer()
 			
 			List {
-				Section("Products") {
-					Text("Meat/vegetables for barbecue")
-					Text("Greenery")
-					Text("Fruits")
-					Text("Smoked meats, sausages")
-					Text("Bread, lavash")
-					Text("Cheese")
-					Text("Mayonnaise, mustard, ketchup, sauce")
+				ForEach(categorys) { category in
+					Section(category.name) {
+						ForEach(category.items) { item in
+							Text(item.name)
+						}
+					}
+					.listRowBackground(Color.clear)
 				}
-				.listRowBackground(Color.clear)
-				
-				Section("Beverages") {
-					Text("Juice, compote")
-					Text("Still water")
-				}
-				.listRowBackground(Color.clear)
-				
-				Section("Items") {
-					Text("Brazier")
-					Text("Skewers, grill")
-					Text("Ignition fluid")
-					Text("Coal starter")
-					Text("Matches, lighter")
-					Text("Disposable tableware")
-					Text("Tablecloth, oilcloth")
-					Text("Plaid, bedspread")
-					Text("Paper napkins")
-					Text("Wet hand wipes")
-					Text("Towels")
-					Text("Garbage bags")
-					Text("Knife")
-					Text("Axe")
-					Text("Cutting board")
-					Text("Domestic water")
-					Text("Toilet paper")
-				}
-				.listRowBackground(Color.clear)
-				
-				Section("Outdoor games") {
-					Text("Ball")
-					Text("Badminton")
-					Text("Jump rope")
-					Text("Chess")
-					Text("Twister")
-					Text("Frisbee")
-					Text("Playing cards")
-					Text("Fishing rod and fishing tackle")
-					Text("Crosswords, magazines")
-					Text("Guitar")
-				}
-				.listRowBackground(Color.clear)
-				
-				Section("Furniture") {
-					Text("Folding table")
-					Text("Folding chairs")
-				}
-				.listRowBackground(Color.clear)
-				
-				Section("First aid kit") {
-					Text("Adhesive plasters")
-					Text("Zelenka or iodine")
-					Text("Hydrogen peroxide")
-					Text("Bandage")
-					Text("Activated carbon")
-					Text("Painkiller")
-					Text("Antihistamines")
-					Text("Sunscreen")
-					Text("Insect bite repellent")
-					Text("Personal medications")
-				}
-				.listRowBackground(Color.clear)
 			}
 			.scrollContentBackground(.hidden)
+			
+//			ForEach(categorys) { category in
+//				List {
+//					Section(category.name) {
+//						ForEach(category.items) { item in
+//							Text(item.name)
+//						}
+//					}
+//					.listRowBackground(Color.clear)
+//				}
+//				.scrollContentBackground(.hidden)
+//			}
 		}
 		.background(
 			// Create Background image
@@ -106,5 +59,5 @@ struct ChecklistView: View {
 }
 
 #Preview {
-    ChecklistView()
+    ChecklistView2()
 }
